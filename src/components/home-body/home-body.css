@@ -1,0 +1,31 @@
+
+.homeBody-Input{
+    max-width: 650px;
+}
+
+.homeAdd{
+  /* background-color: #707070; */
+  position: fixed;
+  bottom: 20px;   
+  right: 0;
+}
+
+.homeAdd .homeAdd-icon{
+  font-size: 80px;
+  text-align: center;
+}
+
+.homeAdd .homeAdd-bt{
+  box-shadow: 0 3px 3px 0 #707070;
+  border-radius: 35px;
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #707070;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
